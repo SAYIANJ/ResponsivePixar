@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: black;
+}
+
+.grid{
+    width:100%;
+    height: 100%;
+    display: grid;
+}
+
+/* navbar */
+
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+}
+.logo{
+    flex-grow: 5;
+    padding-left: 11%;
+    padding-right: 5%;
+}
+.nav-link{
+    flex-grow: 4;
+    font-size: 14px;
+    
+}
+.nav-link a{
+    padding-right: 10px;
+    font-weight: 400;
+}
+a:hover{
+    color: black;
+    transition-duration: 300ms;
+}
+
+/* hero section */
+
+.hero{ 
+    width: 100%;
+    min-height: 30rem;
+    background-image: url("images/Light_header.jpg");
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay{
+    margin-left: 10%;
+    margin-top: 15%;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+.hero {
+        min-height: 12rem;
+    }
+}
+
+@media (max-width: 240px) {
+    .hero {
+            min-height: 8rem;
+        }
+    }
+
+/* down */
+.down{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.down div{
+
+    letter-spacing: 2px;
+    color: rgb(39, 39, 39);  
+}
+
+.down p{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.videoimage{
+    padding:  1rem;
+}
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.footer-social{
+    padding: 7px;
+    opacity: .5;
+}
+
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+/* End */  
